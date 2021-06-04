@@ -1,0 +1,82 @@
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+.navbar-custom{
+    background-color: #E07A5F;
+}
+
+#mainDash{
+    background-color: #E07A5F;
+    opacity: 0.95;
+}
+
+.mainNav .nav-item{
+    margin-right: 30%;
+}
+
+.carousel{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.btn{
+    margin-right: 1%;
+}
+
+.title{
+    text-align: center;
+    padding-bottom: 1%;
+    text-transform: uppercase;
+}
+
+hr{
+    border: 1px solid red;
+    width: 50%;
+}
+
+.product .nav-item{
+    padding: 0% 4%;
+}
+
+section{
+    padding: 3%;
+}
+
+#contactSection{
+    background: #F4F1DE;
+}
+
+.card{
+    margin: 1%;
+}
+
+.productImg{
+    width: 20em;
+    border-radius: 3%;
+    margin-top: 2%;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    display: none;
+    border-radius: 40%;
+}
+
+.lowConLink{
+    color: #000000;
+}
+
+.copyright{
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel{
+        display: none;
+    }
+}
